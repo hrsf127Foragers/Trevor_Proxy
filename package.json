@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon proxy.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/hrsf127Foragers/Trevor_Proxy/issues"
   },
-  "homepage": "https://github.com/hrsf127Foragers/Trevor_Proxy#readme"
+  "homepage": "https://github.com/hrsf127Foragers/Trevor_Proxy#readme",
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
