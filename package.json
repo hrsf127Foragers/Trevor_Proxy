@@ -1,0 +1,19 @@
+{
+  "name": "trevor_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsf127Foragers/Trevor_Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrsf127Foragers/Trevor_Proxy/issues"
+  },
+  "homepage": "https://github.com/hrsf127Foragers/Trevor_Proxy#readme"
+}
