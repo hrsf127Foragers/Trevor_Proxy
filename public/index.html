@@ -6,15 +6,27 @@
     <title>Yelp FEC</title>
   </head>
   <body>
-    <div id="gallery"></div>
-    <div id="review"></div>
-    <div id="app"></div>
+    <div id="combine-container">
+      <div id="gallery"></div>
+      <div id="review"></div>
+      <div id="app"></div>
+    </div>
     <script src="../node_modules/react/umd/react.development.js"></script>
     <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
-    <!-- <script src="http://localhost:3000/bundle.js"></script>
-    <script src="http://localhost:3001/bundle.js"></script> -->
+    <!-- <script src="http://localhost:3000/bundle.js"></script> -->
+    <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:4568/bundle.js"></script>
     <script>
+      // ReactDOM.render(
+      //   React.createElement(Gallery),
+      //   document.getElementById('gallery')
+      // );
+
+      ReactDOM.render(
+        React.createElement(Reviews),
+        document.getElementById('review')
+      );
+
       ReactDOM.render(
         React.createElement(Collections),
         document.getElementById('app')
