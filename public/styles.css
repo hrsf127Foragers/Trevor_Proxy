@@ -2,4 +2,71 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
+
+#banner-container{
+  width: 100%;
+  height: auto;
+}
+
+#gallery {
+  width: 100%;
+  z-index: 1;
+}
+
+#info-review-container {
+  width: 1144px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#header-container{
+  width: 1144px;
+  height: 447px;
+  position: relative;
+}
+
+#header-img-container{
+  width: 760px;
+  height: 100%;
+}
+
+#header-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#side-menu-container{
+  position: absolute;
+  height: 302px;
+  width: 400px;
+  top: 0;
+  right: 0;
+}
+
+#side-menu-fixed{
+  height: 302px;
+  width: 400px;
+  position: fixed;
+}
+
+#popular-dish-location-container{
+  width: 760px;
+  height: auto;
+}
+
+#amenities-container{
+  width: 760px;
+  height: auto;
+}
+
+#review-container{
+  width: 760px;
+  height: auto;
+}
+

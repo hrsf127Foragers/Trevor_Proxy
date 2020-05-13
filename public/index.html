@@ -3,24 +3,48 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Yelp FEC</title>
   </head>
   <body>
     <div id="combine-container">
+      <div id="banner-container">
+        <img id="banner-img" src="http://localhost:8000/assets/YelpBanner.png">
+      </div>
       <div id="gallery"></div>
-      <div id="review"></div>
+
+      <div id="info-review-container">
+        <div id="header-container">
+          <div id="header-img-container">
+            <img id="header-img" src="http://localhost:8000/assets/Title.png">
+          </div>
+          <div id="side-menu-container">
+            <img id="side-menu-fixed" src="http://localhost:8000/assets/SideMenu.png">
+          </div>
+        </div>
+        <div id="popular-dish-location-container">
+          <img id="popular-dish-img" src="http://localhost:8000/assets/PopularDishes+Location.png">
+        </div>
+        <div id="amenities-container">
+          <img id="amenities-img" src="http://localhost:8000/assets/Amenities+Ask.png">
+        </div>
+        <div id="review-container">
+          <div id="review"></div>
+        </div>
+      </div>
+
       <div id="app"></div>
     </div>
     <script src="../node_modules/react/umd/react.development.js"></script>
     <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
-    <!-- <script src="http://localhost:3000/bundle.js"></script> -->
+    <script src="http://localhost:3000/bundle.js"></script>
     <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:4568/bundle.js"></script>
     <script>
-      // ReactDOM.render(
-      //   React.createElement(Gallery),
-      //   document.getElementById('gallery')
-      // );
+      ReactDOM.render(
+        React.createElement(Gallery),
+        document.getElementById('gallery')
+      );
 
       ReactDOM.render(
         React.createElement(Reviews),
