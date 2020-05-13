@@ -23,7 +23,6 @@
   align-items: flex-start;
 }
 
-
 #header-container{
   width: 1144px;
   height: 447px;
@@ -49,10 +48,9 @@
   right: 0;
 }
 
-#side-menu-fixed{
+#side-menu{
   height: 302px;
   width: 400px;
-  position: fixed;
 }
 
 #popular-dish-location-container{
@@ -69,4 +67,12 @@
   width: 760px;
   height: auto;
 }
+
+#also-viewed-container{
+  width: 1260px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
 

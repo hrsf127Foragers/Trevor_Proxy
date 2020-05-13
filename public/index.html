@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Yelp FEC</title>
+    <script src="jquery-3.5.1.min.js"></script>
   </head>
   <body>
     <div id="combine-container">
@@ -19,7 +20,7 @@
             <img id="header-img" src="http://localhost:8000/assets/Title.png">
           </div>
           <div id="side-menu-container">
-            <img id="side-menu-fixed" src="http://localhost:8000/assets/SideMenu.png">
+            <img id="side-menu" src="http://localhost:8000/assets/SideMenu.png">
           </div>
         </div>
         <div id="popular-dish-location-container">
@@ -34,27 +35,19 @@
       </div>
 
       <div id="app"></div>
+      <div id="also-viewed-container">
+        <img id="people-also-viewed" src="http://localhost:8000/assets/PeopleAlsoViewed.png">
+      </div>
     </div>
-    <script src="../node_modules/react/umd/react.development.js"></script>
-    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+
+
+    <!-- <script src="../node_modules/react/umd/react.development.js"></script>
+    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script> -->
     <script src="http://localhost:3000/bundle.js"></script>
     <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:4568/bundle.js"></script>
     <script>
-      ReactDOM.render(
-        React.createElement(Gallery),
-        document.getElementById('gallery')
-      );
 
-      ReactDOM.render(
-        React.createElement(Reviews),
-        document.getElementById('review')
-      );
-
-      ReactDOM.render(
-        React.createElement(Collections),
-        document.getElementById('app')
-      );
     </script>
   </body>
 </html>
