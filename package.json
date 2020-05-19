@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon proxy.js"
+    "start": "nodemon proxy.js",
+    "build:docker": "bash dockerpush.bash"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/hrsf127Foragers/Trevor_Proxy#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "jquery": "^3.5.1",
     "nodemon": "^2.0.3",
     "path": "^0.12.7",
